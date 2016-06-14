@@ -54,27 +54,33 @@ por su nombre completo (XSLT), obteniendo cada vez un resultado distinto.
 
 Otros caracteres empleados para la construcción de patrones son:
 
-> . Nodo actual.
-> .. Superior al nodo actual.
-> | Alternativas (opcion a|opcion b).
-> // Hace que coincidan los descendientes en vez de los secundarios.
-> * Todos los elementos.
-> @ Atributo.
-> [] Filtro.
-> $all$ Todos deben cumplir la condición.
-> $any$ Alguno debe cumplir la condición.
+```
+. Nodo actual.
+.. Superior al nodo actual.
+| Alternativas (opcion a|opcion b).
+// Hace que coincidan los descendientes en vez de los secundarios.
+* Todos los elementos.
+@ Atributo.
+[] Filtro.
+$all$ Todos deben cumplir la condición.
+$any$ Alguno debe cumplir la condición.
+```
 
 ### Operadores.
 
-> and
-> or
-> not()
-> =
-> !=
-> < $lt$
-> <= $ile$
-> > $gt$
-> >= $ige$
+Otros caracteres empleados para la construcción de patrones son:
+
+```
+and
+or
+not()
+=
+!=
+< $lt$
+<= $ile$
+> $gt$
+>= $ige$
+```
 
 ### Elementos del Template.
 
