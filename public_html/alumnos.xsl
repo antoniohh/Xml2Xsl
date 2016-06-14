@@ -95,8 +95,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
         </html>
     </xsl:template>
 
-    <!-- Template para filtrar los alumnos suspensos (mode="aprobado"). El atributo mode permite que se procese varias veces
-    un elemento especificado por su Nombres completos (XSLT), obteniendo cada vez un resultado distinto. -->
+    <!-- Template para filtrar los alumnos aprobados (mode="aprobado").  -->
     <xsl:template match="/modulo/alumno" mode="aprobado">
 
         <!-- Condicion if. Si se cumple la condicion, se muestra el contenido. La Nota debe ser mayor o igual a cinco.-->
