@@ -1,0 +1,56 @@
+/*
+Copyright (C) 2016 anton
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+/* 
+    Created on : 14-jun-2016, 1:39:50
+    Author     : Antonio Horrillo Horrillo
+*/
+
+/* Color fondo página */
+body{background-color:#E0E0E0;}
+
+/* Color titulo */
+ h1{color:#0223EA; font-weight:bold; text-align:center;}
+
+/* Color fondo 1ª linea tabla */
+.gris1{background-color:#A9A9A9;}
+
+/* Color fondo 2ª linea tabla */
+.gris2{background-color:#BFBFBF;}
+
+/* Color fondo contenido tabla */
+.gris3{background-color:#E0E0E0;}
+
+/* Elementos tabla	*/
+table {
+    border: 1px solid black;
+    width: 600px;
+    align:center;
+    text-align:center;
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid black;
+    width: 100px;
+}
+
+/* Colores notas texto */
+.sob{color:#04B431; font-weight:bold;}
+.not{color:#173B0B; font-weight:bold;}
+.bie{color:#0000FF; font-weight:bold;}
+.suf{color:#DF01D7; font-weight:bold;}
+.ins{color:#DF0101; font-weight:bold;}
